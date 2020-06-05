@@ -15,7 +15,7 @@ if [ "$PV" == "9999" ]; then
 	EGIT_REPO_URI="https://github.com/fidelram/deepTools"
 	KEYWORDS=""
 else
-	SRC_URI="https://github.com/fidelram/deepTools/archive/2.5.0.tar.gz -> ${P}.tar.gz"
+	SRC_URI="https://github.com/fidelram/deepTools/archive/${PV}.tar.gz -> ${P}.tar.gz"
 	KEYWORDS="~amd64"
 fi
 
